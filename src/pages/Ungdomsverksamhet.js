@@ -1,7 +1,7 @@
 import React from "react";
 import Video from "../files/knopar.mp4"
 
-class Home extends React.Component{
+class Ungdomsverksamhet extends React.Component{
     render(){
         return(
          
@@ -80,4 +80,4 @@ class Home extends React.Component{
               }
 }
 
-export default Home;
+export default Ungdomsverksamhet;
