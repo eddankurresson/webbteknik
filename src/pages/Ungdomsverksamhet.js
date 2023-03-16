@@ -1,4 +1,5 @@
 import React from "react";
+import Video from "../files/knopar.mp4"
 
 class Home extends React.Component{
     render(){
@@ -48,7 +49,7 @@ class Home extends React.Component{
             
             </table>
             &nbsp; &nbsp; &nbsp;
-            <a href="https://simplesignup.se/" class="button" target="_blank">&nbsp;Anmälan&nbsp;</a>
+            <a href="https://simplesignup.se/" class="button">&nbsp;Anmälan&nbsp;</a>
   </div>
   <div class="item7"  style={{ backgroundColor: "#BFE4F4" }}>
     <h1> Knopskola <br/></h1>
@@ -62,7 +63,7 @@ class Home extends React.Component{
    <br/>
  
   <video width="320px" height="240px" controls>
-    <source src={require('../files/knopar.mp4')} type="video/mp4"/>
+    <source src={Video} type="video/mp4"/>
     Your browser does not support the video tag.
   </video>
   <br/>  
