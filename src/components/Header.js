@@ -13,7 +13,7 @@ class Header extends React.Component{
                     <a href="/Omoss">Om Oss </a>
                     <a href="/Kanot">Kanot</a>
                     <a href="/Ungdomsverksamhet">Ungdomsverksamhet</a>
-                    <a href="Blimedlem">Bli Medlem</a>
+                    <a href="/Blimedlem">Bli Medlem</a>
                     <a href="Veckobrev">Veckobrev</a>
                 </div>
 

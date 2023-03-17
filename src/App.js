@@ -17,11 +17,11 @@ import './App.css';
 function App() {
   return <div className="grid-Container">
    
-      <Router >
+      <Router>
       <Header />
           <Routes>
             <Route exact path="/" element={<Home/>} />
-            <Route path="/Omoss/" element={<Omoss/>}  />
+            <Route path="/Omoss" element={<Omoss/>}  />
             <Route path="/Kanot" element={<Kanot/>}  />
             <Route path="/Nyheter" element={<Nyheter/>}  />
             <Route path="/Blimedlem" element={<Blimedlem/>}  />
