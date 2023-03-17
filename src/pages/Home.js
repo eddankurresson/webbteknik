@@ -159,8 +159,8 @@ class Home extends React.Component{
                         </h2>
 
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a onClick={downloadPdf} className="button" >&nbsp;Bryggvakt&nbsp;</a>
-                        <a onClick={downloadPdf} className="button" >&nbsp;Isättning&nbsp;</a>
+                        <button onClick={downloadPdf} className="button" >&nbsp;Bryggvakt&nbsp;</button>
+                        <button onClick={downloadPdf} className="button" >&nbsp;Isättning&nbsp;</button>
 
                     </div>
 
