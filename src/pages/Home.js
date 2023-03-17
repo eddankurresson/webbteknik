@@ -115,6 +115,20 @@ function artiklar(){
                 rootElement.appendChild(itemContainer);
               }
         }
+        const downloadPdf = () => {
+            // using Java Script method to get PDF file
+            fetch('Formelblad.pdf').then(response => {
+                response.blob().then(blob => {
+                    // Creating new object of PDF file
+                    const fileURL = window.URL.createObjectURL(blob);
+                    // Setting various property values
+                    let alink = document.createElement('a');
+                    alink.href = fileURL;
+                    alink.download = 'Formelblad.pdf';
+                    alink.click();
+                })
+            })
+        }
 class Home extends React.Component{
     render(){
         return(
@@ -145,8 +159,8 @@ class Home extends React.Component{
                         </h2>
 
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="files/files/formelblad.pdf" className="button" target="_blank">&nbsp;Bryggvakt&nbsp;</a>
-                        <a href="files/files/formelblad.pdf" className="button" target="_blank">&nbsp;Isättning&nbsp;</a>
+                        <a onClick={downloadPdf} className="button" >&nbsp;Bryggvakt&nbsp;</a>
+                        <a onClick={downloadPdf} className="button" >&nbsp;Isättning&nbsp;</a>
 
                     </div>
 
