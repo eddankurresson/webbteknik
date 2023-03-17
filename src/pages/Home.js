@@ -133,7 +133,7 @@ class Home extends React.Component{
                             NSS &auml;r en aktiv och betydelsefull akt&ouml;r i  Nyn&auml;shamn med en naturlig och m&aring;ng&aring;rig
                             verksamhet med inriktning p&aring; sj&ouml;liv, b&aring;tsport, segling och ungdoms- verksamhet.
                             NSS &auml;ger en f&ouml;rn&auml;lig klubbanl&auml;ggning, varv och bryggor vid Fagerviken, m&aring;nga bryggor i
-                            Treh&ouml; rningsviken samt klubbholmen Lacka strax norr om Nyn&auml; shamn.
+                            Treh&ouml;rningsviken samt klubbholmen Lacka strax norr om Nyn&auml;shamn.
                         </h2>
                     </div>
                     <div className="item7" style={{ backgroundColor: "#BFE4F4" }}>

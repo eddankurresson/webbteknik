@@ -6,7 +6,7 @@ class Header extends React.Component{
             <div className="grid-container" style={{maxHeight: '50px'}}>
 
             <div className="item1">
-                <a href="/"> <img src={require('../files/logga.png')} style={{ maxWidth: '35%' }} alt="" />  </a>
+                <a href="/"> <img src={require('../files/logga.png')} style={{ maxWidth: '12%' }} alt="" />  </a>
             </div>
             <div className="item2">
                 <div id="desktop">
@@ -19,8 +19,8 @@ class Header extends React.Component{
 
                 <div className="menu" id="mobile">
 
-                    <button className="toggle">Meny</button>
-                    <ul className="list">
+                    <button className="toggle" >Meny</button>
+                    <ul className="list"> 
                         <a href="Omoss"> <li className="list-item">Om Oss </li> </a>
                         <a href="Kanot"> <li className="list-item">Kanot</li></a>
                         <a href="Ungdomsverksamhet"><li className="list-item">Ungdomsverksamhet </li> </a>

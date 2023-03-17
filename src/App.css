@@ -78,7 +78,7 @@
     #mobile{
     visibility: visible;  }
     #mobilepicture{
-    max-width: 75%;
+    max-width: 100%;
     }
     #mobilepicture1{
       max-width: 75%;
@@ -275,6 +275,7 @@ html {
 }
 
 .toggle::after {
+  
   content: "";
   width: 6px;
   height: 6px;
@@ -306,14 +307,17 @@ html {
 
 .toggle:focus::after {
   transform: rotate(225deg);
+  
 }
 
 .toggle:focus ~ .list {
   height: 320px;
+  
 }
 
 .toggle:focus ~ .list .list-item {
   transform: translateX(0);
+  background-color: dodgerblue;
 }
 
 .datecursor {
