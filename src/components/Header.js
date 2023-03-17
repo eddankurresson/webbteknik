@@ -11,10 +11,10 @@ class Header extends React.Component{
             <div className="item2">
                 <div id="desktop">
                     <a href="/Omoss">Om Oss </a>
-                    <a href="/Kanot">Kanot</a>
-                    <a href="/Ungdomsverksamhet">Ungdomsverksamhet</a>
-                    <a href="/Blimedlem">Bli Medlem</a>
-                    <a href="Veckobrev">Veckobrev</a>
+                    <a href="/Kanot"> Kanot </a>
+                    <a href="/Ungdomsverksamhet"> Ungdomsverksamhet </a>
+                    <a href="/Blimedlem"> Bli Medlem </a>
+                    <a href="Veckobrev"> Veckobrev</a>
                 </div>
 
                 <div className="menu" id="mobile">
@@ -37,9 +37,9 @@ class Header extends React.Component{
 
             <div id="desktop1">
                 <div className="item3">
-                    <a href="https://www.klubbtryck.se/nhss/">Kläder</a>
-                    <a href="Nyheter">Nyhetsarkiv</a>
-                    <a href="#mobilemaps" className="button">&nbsp;Kontakt&nbsp;</a>
+                    <a href="https://www.klubbtryck.se/nhss/">Kläder </a>
+                    <a href="Nyheter"> Nyhetsarkiv </a>
+                    <a href="#mobilemaps" className="button"> &nbsp;Kontakt&nbsp; </a>
                 </div>
             </div>
             </div>
